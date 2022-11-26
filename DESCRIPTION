@@ -1,0 +1,10 @@
+Package: activitymap
+Title: Use Garmin fit files to draw your activity map
+Version: 0.0.0.9000
+Authors@R: 
+    person("Xingyu", "Hu", , "xingyu3906@gmail.com", role = c("aut", "cre"))
+Description: Use Garmin fit files to draw athlete's activity map.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
