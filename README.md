@@ -32,4 +32,6 @@ activity_map <- getData() %>%
     positionFilter() %>%
     activityMap()
 activity_map
-``
+```
+
+![](README.png)<!-- -->
