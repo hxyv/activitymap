@@ -17,7 +17,7 @@ This package has four functions to read your Garmin fit file and plot the activi
 - *getData():* read all your .fit files into RStudio
 - *convertData():* convert raw data read by getData() into a list
 - *positionFilter():* extract position data and filter wrong position data
-- *activityMap():* draw the activity map with the filtered data
+- *plotMap():* draw the activity map with the filtered data
 
 ### Using the functions
 Example:
