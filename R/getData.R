@@ -14,7 +14,7 @@ getData <- function(){
     # Get all files' name
     temp <- list.files()
     # Read data into RStudio with readFitFile function
-    myfiles <- lapply(temp, readFitFile)
+    myfiles <- lapply(temp, FITfileR::readFitFile)
     setwd("..")
     return(myfiles)
 }

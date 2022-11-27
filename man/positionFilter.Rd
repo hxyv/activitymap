@@ -14,6 +14,6 @@ This function can extract position data and filter wrong position data generated
 }
 \examples{
 positionFilter(allrecords)
-filtered_position <- positionFilter(allrecords)
-head(filtered_position)
+records_position <- positionFilter(allrecords)
+head(records_position[[1]])
 }

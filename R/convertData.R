@@ -17,7 +17,7 @@ convertData <- function(myfiles){
     # Convert the raw data into appropriate data types (list)
     for(i in 1:num_data){
         allrecords[[i]] <- myfiles[[i]] %>%
-            records() %>%
+            FITfileR::records() %>%
             bind_rows() %>%
             arrange(timestamp)
     }
