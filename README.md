@@ -24,7 +24,7 @@ Example:
 ```r
 library(activitymap)
 library(dplyr)
-library(FITFileR)
+library(FITfileR)
 library(leaflet)
 
 activity_map <- getData() %>%
