@@ -1,6 +1,6 @@
 Package: activitymap
 Title: Use Garmin fit files to draw your activity map
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person("Xingyu", "Hu", 
             email = "xingyu3906@gmail.com", 

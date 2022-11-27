@@ -11,6 +11,15 @@
 
 positionFilter <- function(allrecords){
     num_data <- length(allrecords)
+    # If the data does not have position records, set NA to the data
+    for(i in 1:num_data){
+        if("position_long" %in% colnames(allrecords[[i]])){
+
+        } else{
+            allrecords[[i]] <- data.frame(position_long = c(NA),
+                                          position_lat = c(NA))
+        }
+    }
 
     # Extract and filter position data from "allrecords" to "records_position"
     records_position <- vector(mode = "list", length = num_data)
