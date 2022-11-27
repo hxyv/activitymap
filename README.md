@@ -1,4 +1,7 @@
 # activitymap
+
+[![](https://img.shields.io/badge/dev%20version-0.0.1-blue.svg)](https://github.com/hxyv/activitymap)
+
 #### *Xingyu Hu, <xingyu3906@gmail.com>*
 
 ### Overview and installation
