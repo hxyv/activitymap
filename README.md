@@ -32,8 +32,7 @@ library(dplyr)
 activity_map <- getData() %>%
     convertData() %>%
     positionFilter() %>%
-    plotMap(records_position,
-            colour = "#00FFFF",
+    plotMap(colour = "#00FFFF",
             opacity = 1,
             weight = 1,
             fillOpacity = 0.2)
