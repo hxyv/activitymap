@@ -29,6 +29,7 @@ library(activitymap)
 library(leaflet)
 library(dplyr)
 
+# One-step
 activity_map <- getData() %>%
     convertData() %>%
     positionFilter() %>%
@@ -36,6 +37,18 @@ activity_map <- getData() %>%
             opacity = 1,
             weight = 1,
             fillOpacity = 0.2)
+activity_map
+
+# Multi-step
+myfiles <- getData()
+allrecords <- convertData(myfiles)
+records_position <- positionFilter(allrecords)
+activity_map <- plotMap(records_position,
+                        colour = "seagreen",
+                        opacity = 1,
+                        weight = 1,
+                        fillOpacity = 0.2)
+
 activity_map
 ```
 
