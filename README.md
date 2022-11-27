@@ -20,6 +20,7 @@ This package has four functions to read your Garmin fit file and plot the activi
 Example:
 1. Create a new folder in your R project and name it "data"
 2. Copy and paste all your fit files from Garmin devices into the "data" folder
+3. Make sure the working directory is on the main folder of your project
 
 ```r
 library(activitymap)
