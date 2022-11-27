@@ -7,11 +7,7 @@ Authors@R:
             role = c("aut", "cre"))
 Description: Use Garmin fit files to draw athlete's activity map.
 URL: https://github.com/hxyv/activitymap
-Imports:
-    dplyr,
-    FITfileR,
-    leaflet,
-    magrittr
+Imports: FITfileR
 License: use_mit_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
