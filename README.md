@@ -26,10 +26,11 @@ Example:
 3. Make sure the working directory is on the main folder of your project
 
 ```r
+library(devtools)
+devtools::install_github("grimbough/FITfileR")
+library(FITfileR)
 library(activitymap)
 library(dplyr)
-library(FITfileR)
-library(leaflet)
 
 activity_map <- getData() %>%
     convertData() %>%
