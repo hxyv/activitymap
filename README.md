@@ -7,7 +7,7 @@
 ### Package overview
 This package has four functions to read your Garmin fit file and plot the activity map.
 - *getData():* read all your .fit files into RStudio
-- *convertData():* convert raw data read by getData() into a list
+- *convertData():* convert raw data read by *getData()* into a list
 - *positionFilter():* extract position data and filter wrong position data
 - *plotMap():* draw the activity map with the filtered data
 
@@ -37,6 +37,7 @@ activity_map <- getData() %>%
             opacity = 1,
             weight = 1,
             fillOpacity = 0.2)
+            
 activity_map
 
 # Multi-step
