@@ -6,8 +6,6 @@
 #' @name activitymap
 #'
 #' @import FITfileR
-#' @import leaflet
 #'
-#' @importFrom magrittr "%>%"
 #'
 NULL
