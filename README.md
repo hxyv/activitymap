@@ -1,6 +1,6 @@
 # activitymap
 
-[![](https://img.shields.io/badge/dev%20version-0.0.1-blue.svg)](https://github.com/hxyv/activitymap)
+[![](https://img.shields.io/badge/dev%20version-0.0.2-red.svg)](https://github.com/hxyv/activitymap)
 
 #### *Xingyu Hu, <xingyu3906@gmail.com>*
 
@@ -21,9 +21,12 @@ Example:
 library(devtools)
 devtools::install_github("grimbough/FITfileR")
 devtools::install_github("hxyv/activitymap")
+install.packages(leaflet)
+install.packages(dplyr)
 
 library(FITfileR)
 library(activitymap)
+library(leaflet)
 library(dplyr)
 
 activity_map <- getData() %>%
