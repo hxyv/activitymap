@@ -1,4 +1,4 @@
-#' activity: A package using Garmin fit files to plot your activity map.
+#' activitymap: A package using Garmin fit files to plot your activity map.
 #'
 #' Provides functionality for reading fit files and ploting activity map.
 #'
