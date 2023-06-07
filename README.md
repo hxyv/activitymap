@@ -18,9 +18,8 @@ Example:
 3. Make sure the working directory is on the main folder of your project
 
 ```r
-library(devtools)
-devtools::install_github("grimbough/FITfileR")
-devtools::install_github("hxyv/activitymap")
+remotes::install_github("grimbough/FITfileR")
+remotes::install_github("hxyv/activitymap")
 install.packages(leaflet)
 install.packages(dplyr)
 
